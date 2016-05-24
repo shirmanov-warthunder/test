@@ -1,0 +1,27 @@
+﻿@using Test.Resources
+@model IEnumerable<Test.Core.Domain.Question>
+
+@{
+    int i = 1;
+}
+
+<div id="questions">
+    <h4>@HomeResources.QuestionsInTest @Model.Count()</h4>
+    <table class="table">
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>
+                    Вопрос @(i++)
+                </td>
+                <td>
+                    @item.Text
+                </td>
+                <td>
+                    @Html.ActionLink(HomeResources.Edit, "AnswerInfo", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

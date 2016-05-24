@@ -1,0 +1,73 @@
+﻿@model Test.Core.Domain.Question
+@{
+    ViewBag.Title = "PassTest";
+}
+
+<h2>Testing...</h2>
+
+<span id="mm"></span> : <span id="ss"></span>
+
+@Html.Partial("_Online", Model)
+
+
+<form ajax-action="@Url.Action("PassTest")" ajax-method="POST" ajax-form="true" ajax-target="#update" id="formAnswer">
+    <input type="hidden" name="test" id="hidden" />
+    <button type="submit">Ответить</button>
+</form>
+
+@section Script
+{
+    <script src="~/Scripts/ajaxHelper.js"></script>
+    <script src="~/Scripts/ajax.js"></script>
+    <script>
+        $(function() {
+            var count = 1;
+            var total = "@ViewBag.Count";
+            var $mm = $("#mm");
+            var $ss = $("#ss");
+            var second = 10;
+
+            $("button").click(function() {
+                var radioVal = $('input:radio[name=test]:checked').val();
+                $('#hidden').val(radioVal);
+
+                second = 10;
+                clearInterval(timerSubmit);
+                timerSubmit = setInterval(func, 10000);
+
+                if (count++ == total) {
+                    clearInterval(timerTime);
+                    clearInterval(timerSubmit);
+                    $("form").hide();
+                }
+            });
+
+            var time = function() {
+                $mm.text("0" + Math.floor(second / 60));
+                if (second % 60 <= 9) {
+                    $ss.text("0" + second % 60);
+                } else {
+                    $ss.text(second % 60);
+                }
+                second--;
+            };
+
+            var func = function() {
+                var radioVal = $('input:radio[name=test]:checked').val();
+                $('#hidden').val(radioVal);
+
+                if (count++ == total) {
+                    clearInterval(timerSubmit);
+                }
+
+                second = 10;
+
+                $("#formAnswer").submit();
+            };
+
+            var timerTime = setInterval(time, 1000);
+
+            var timerSubmit = setInterval(func, 10000);
+        });
+    </script>
+}

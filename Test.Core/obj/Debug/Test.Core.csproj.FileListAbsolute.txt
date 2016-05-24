@@ -1,0 +1,9 @@
+D:\Test\Test.Core\bin\Debug\Test.Core.dll.config
+D:\Test\Test.Core\bin\Debug\Test.Core.dll
+D:\Test\Test.Core\bin\Debug\Test.Core.pdb
+D:\Test\Test.Core\bin\Debug\EntityFramework.dll
+D:\Test\Test.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Test\Test.Core\bin\Debug\EntityFramework.xml
+D:\Test\Test.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Test\Test.Core\obj\Debug\Test.Core.dll
+D:\Test\Test.Core\obj\Debug\Test.Core.pdb

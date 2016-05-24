@@ -1,0 +1,54 @@
+﻿@model Test.Web.Models.Admin.UserRoleModel
+@{
+    ViewBag.Title = "AddUserToRole";
+}
+
+<h2>AddUserToRole</h2>
+
+<form method="POST" class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-md-2">Users</label>
+        <div class="col-md-10">
+            <select id="login" name="Login" class="form-control">
+                <option value="-1">Select</option>
+                @foreach (var u in Model.Users)
+                {
+                    <option value="@u.Login">@u.Login</option>
+                }
+            </select>
+        </div>
+    </div><!--end form group-->
+    
+    <div class="form-group">
+        <label class="control-label col-md-2">Roles</label>
+        <div class="col-md-10">
+            <select id="login" name="Role" class="form-control">
+                <option value="-1">Select</option>
+                @foreach (var r in Model.Roles)
+                {
+                    <option value="@r.Name">@r.Name</option>
+                }
+            </select>
+        </div>
+    </div><!--end form group-->
+    
+    <input type="hidden" name="toDelete" id="flag"/>
+    
+    <button class="btn btn-default" type="submit" id="add">Add Role</button>
+    <button class="btn btn-default" type="submit" id="delete">DeleteRole</button>
+</form>
+
+@section Script
+{
+    <script>
+        $(function() {
+            $("#add").click(function() {
+                $("#flag").val(false);
+            });
+
+            $("#delete").click(function () {
+                $("#flag").val(true);
+            });
+        });
+    </script>
+}

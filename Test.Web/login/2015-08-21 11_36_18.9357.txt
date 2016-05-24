@@ -1,0 +1,1 @@
+2015-08-21 11:36:18.9357|INFO|AuthLogger|User shirmanov log in the application

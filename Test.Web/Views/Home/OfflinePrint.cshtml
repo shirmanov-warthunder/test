@@ -1,0 +1,38 @@
+﻿@model Test.Core.Domain.Exercise
+
+@{
+    Layout = null;
+    var j = 1;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+    <link href="~/Content/Print.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    @foreach (var q in Model.Questions)
+    {
+        var i = 'a';
+        <div class="container">
+            <div class="panel">
+                <div class="panel-heading">
+                    Вопрос @(j++)
+                    <div>@q.Text</div>
+                </div>
+                <div class="panel-body">
+                    <ol>
+                        @foreach (var a in q.Answers)
+                        {
+                            <li>@a.Text</li>
+                        }
+                    </ol>
+                </div>
+            </div>
+        </div>
+    }
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿@using Test.Resources
+
+@{
+    ViewBag.Title = "NotFound";
+}
+
+@section Style{
+    <link href="~/Content/NotFound/web/css/style.css" rel="stylesheet"/>
+}
+
+<!--start-wrap--->
+<div class="wrap">
+    <!--start-content------>
+    <div class="content">
+        <img src="~/Content/NotFound/web/images/error-img.png" title="error" />
+        <p><span><label>O</label>hh.....</span>You Requested the page that is no longer There.</p>
+        @Html.ActionLink(HomeResources.BackToHome, "Index", "Home")
+    </div>
+    <!--End-Cotent------>
+</div>
+<!--End-wrap--->

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GenericTest name="Proxy" storage="d:\test\nubitproxy\proxy.generictest" id="6783e2c1-c883-4c7b-9977-44e1b26ded8f" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Command filename="C:\Program Files (x86)\NUnit 2.6.4\bin\nunit-agent-x86.exe" arguments="&quot;D:\Test\Test.BL.Tests\bin\Debug\Test.BL.Tests.dll&quot;" workingDirectory="%TestOutputDirectory%" />
+  <SummaryXmlFile path="%TestOutputDirectory%\&lt;Enter summary file name here&gt;" />
+</GenericTest>

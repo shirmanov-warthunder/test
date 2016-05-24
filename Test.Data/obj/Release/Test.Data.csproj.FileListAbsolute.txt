@@ -1,0 +1,15 @@
+D:\Test\Test.Data\bin\Release\Test.Data.dll.config
+D:\Test\Test.Data\bin\Release\Test.Data.dll
+D:\Test\Test.Data\bin\Release\Test.Data.pdb
+D:\Test\Test.Data\bin\Release\EntityFramework.dll
+D:\Test\Test.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\Test\Test.Data\bin\Release\Test.Core.dll
+D:\Test\Test.Data\bin\Release\Test.Core.pdb
+D:\Test\Test.Data\bin\Release\EntityFramework.xml
+D:\Test\Test.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\Test\Test.Data\obj\Release\Test.Data.csprojResolveAssemblyReference.cache
+D:\Test\Test.Data\obj\Release\Test.Data.dll
+D:\Test\Test.Data\obj\Release\Test.Data.pdb
+D:\Test\Test.Web\temp\Test.Data.dll.config
+D:\Test\Test.Web\temp\Test.Data.dll
+D:\Test\Test.Web\temp\Test.Data.pdb

@@ -1,0 +1,21 @@
+﻿@using Test.Resources
+@model Test.Core.Domain.Question
+
+<div id="update">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @Model.Text
+        </div>
+        <div class="panel-body">
+            <label for="dont-know">@HomeResources.DontKnow</label>
+            <input id="dont-know" type="radio" name="test" value="-1" checked="true"/>
+            <br/>
+            @foreach (var a in Model.Answers)
+            {
+                <label for="@a.Id">@a.Text</label>
+                <input id="@a.Id" type="radio" name="test" value="@a.Id" />
+                <br/>
+            }
+        </div>
+    </div>
+</div>

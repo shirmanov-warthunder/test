@@ -1,0 +1,106 @@
+D:\Test\Test.Web\bin\Test.Web.dll
+D:\Test\Test.Web\bin\Test.Web.pdb
+D:\Test\Test.Web\bin\EntityFramework.dll
+D:\Test\Test.Web\bin\EntityFramework.SqlServer.dll
+D:\Test\Test.Web\bin\System.Web.Helpers.dll
+D:\Test\Test.Web\bin\System.Web.Mvc.dll
+D:\Test\Test.Web\bin\System.Web.Razor.dll
+D:\Test\Test.Web\bin\System.Web.Webpages.Deployment.dll
+D:\Test\Test.Web\bin\System.Web.Webpages.dll
+D:\Test\Test.Web\bin\System.Web.Webpages.Razor.dll
+D:\Test\Test.Web\bin\EntityFramework.xml
+D:\Test\Test.Web\bin\EntityFramework.SqlServer.xml
+D:\Test\Test.Web\bin\System.Web.Razor.xml
+D:\Test\Test.Web\bin\System.Web.Webpages.xml
+D:\Test\Test.Web\bin\System.Web.Webpages.Deployment.xml
+D:\Test\Test.Web\bin\System.Web.Webpages.Razor.xml
+D:\Test\Test.Web\bin\System.Web.Helpers.xml
+D:\Test\Test.Web\bin\System.Web.Mvc.xml
+D:\Test\Test.Web\obj\Debug\Test.Web.csprojResolveAssemblyReference.cache
+D:\Test\Test.Web\obj\Debug\Test.Web.dll
+D:\Test\Test.Web\obj\Debug\Test.Web.pdb
+D:\Test\Test.Web\bin\Test.Core.dll
+D:\Test\Test.Web\bin\Test.Data.dll
+D:\Test\Test.Web\bin\Test.Core.pdb
+D:\Test\Test.Web\bin\Test.Data.pdb
+D:\Test\Test.Web\bin\Castle.Core.dll
+D:\Test\Test.Web\bin\Castle.Windsor.dll
+D:\Test\Test.Web\bin\Castle.Core.xml
+D:\Test\Test.Web\bin\Castle.Windsor.xml
+D:\Test\Test.Web\bin\AutoMapper.dll
+D:\Test\Test.Web\bin\Test.BL.dll
+D:\Test\Test.Web\bin\Test.Resources.dll
+D:\Test\Test.Web\bin\Test.BL.pdb
+D:\Test\Test.Web\bin\Test.Resources.pdb
+D:\Test\Test.Web\bin\AutoMapper.xml
+D:\Test\Test.Web\bin\NLog.config
+D:\Test\Test.Web\bin\NLog.dll
+D:\Test\Test.Web\bin\NLog.xml
+D:\Test\Test.Web\bin\Common.Logging.Core.dll
+D:\Test\Test.Web\bin\Common.Logging.dll
+D:\Test\Test.Web\bin\Common.Logging.pdb
+D:\Test\Test.Web\bin\Common.Logging.xml
+D:\Test\Test.Web\bin\Common.Logging.Core.pdb
+D:\Test\Test.Web\bin\Common.Logging.Core.xml
+D:\Test\Test.Web\bin\log4net.dll
+D:\Test\Test.Web\bin\log4net.xml
+D:\Test\Test.Web\bin\Common.Logging.Log4Net1211.dll
+D:\Test\Test.Web\bin\Common.Logging.Log4Net1211.pdb
+D:\Test\Test.Web\bin\Common.Logging.Log4Net1211.xml
+D:\Test\Test.Web\bin\PagedList.dll
+D:\Test\Test.Web\bin\PagedList.Mvc.dll
+D:\Test\Test.Web\bin\PagedList.xml
+D:\Test\Test.Web\bin\PagedList.Mvc.xml
+D:\.Net Projects\Test\Test.Web\bin\NLog.config
+D:\.Net Projects\Test\Test.Web\bin\Test.Web.dll
+D:\.Net Projects\Test\Test.Web\bin\Test.Web.pdb
+D:\.Net Projects\Test\Test.Web\bin\AutoMapper.dll
+D:\.Net Projects\Test\Test.Web\bin\Castle.Core.dll
+D:\.Net Projects\Test\Test.Web\bin\Castle.Windsor.dll
+D:\.Net Projects\Test\Test.Web\bin\Common.Logging.Core.dll
+D:\.Net Projects\Test\Test.Web\bin\Common.Logging.dll
+D:\.Net Projects\Test\Test.Web\bin\Common.Logging.Log4Net1211.dll
+D:\.Net Projects\Test\Test.Web\bin\EntityFramework.dll
+D:\.Net Projects\Test\Test.Web\bin\EntityFramework.SqlServer.dll
+D:\.Net Projects\Test\Test.Web\bin\log4net.dll
+D:\.Net Projects\Test\Test.Web\bin\NLog.dll
+D:\.Net Projects\Test\Test.Web\bin\PagedList.dll
+D:\.Net Projects\Test\Test.Web\bin\PagedList.Mvc.dll
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Helpers.dll
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Mvc.dll
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Razor.dll
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Webpages.Deployment.dll
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Webpages.dll
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Webpages.Razor.dll
+D:\.Net Projects\Test\Test.Web\bin\Test.BL.dll
+D:\.Net Projects\Test\Test.Web\bin\Test.Core.dll
+D:\.Net Projects\Test\Test.Web\bin\Test.Data.dll
+D:\.Net Projects\Test\Test.Web\bin\Test.Resources.dll
+D:\.Net Projects\Test\Test.Web\bin\Test.BL.pdb
+D:\.Net Projects\Test\Test.Web\bin\Test.Core.pdb
+D:\.Net Projects\Test\Test.Web\bin\Test.Data.pdb
+D:\.Net Projects\Test\Test.Web\bin\Test.Resources.pdb
+D:\.Net Projects\Test\Test.Web\bin\AutoMapper.xml
+D:\.Net Projects\Test\Test.Web\bin\Castle.Core.xml
+D:\.Net Projects\Test\Test.Web\bin\Castle.Windsor.xml
+D:\.Net Projects\Test\Test.Web\bin\Common.Logging.pdb
+D:\.Net Projects\Test\Test.Web\bin\Common.Logging.xml
+D:\.Net Projects\Test\Test.Web\bin\Common.Logging.Core.pdb
+D:\.Net Projects\Test\Test.Web\bin\Common.Logging.Core.xml
+D:\.Net Projects\Test\Test.Web\bin\Common.Logging.Log4Net1211.pdb
+D:\.Net Projects\Test\Test.Web\bin\Common.Logging.Log4Net1211.xml
+D:\.Net Projects\Test\Test.Web\bin\EntityFramework.xml
+D:\.Net Projects\Test\Test.Web\bin\EntityFramework.SqlServer.xml
+D:\.Net Projects\Test\Test.Web\bin\log4net.xml
+D:\.Net Projects\Test\Test.Web\bin\NLog.xml
+D:\.Net Projects\Test\Test.Web\bin\PagedList.xml
+D:\.Net Projects\Test\Test.Web\bin\PagedList.Mvc.xml
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Razor.xml
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Webpages.xml
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Webpages.Deployment.xml
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Webpages.Razor.xml
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Helpers.xml
+D:\.Net Projects\Test\Test.Web\bin\System.Web.Mvc.xml
+D:\.Net Projects\Test\Test.Web\obj\Debug\Test.Web.csprojResolveAssemblyReference.cache
+D:\.Net Projects\Test\Test.Web\obj\Debug\Test.Web.dll
+D:\.Net Projects\Test\Test.Web\obj\Debug\Test.Web.pdb

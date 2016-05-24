@@ -1,0 +1,12 @@
+relre:StyleCop.Cache
+relre:/bin/*
+relre:/Bin/*
+relre:/obj/*
+relre:/.svn/*
+relre:.csproj.user
+relre:.orig
+relre:_ReSharper.*
+relre:.suo
+relre:.user
+syntax: glob
+packages/

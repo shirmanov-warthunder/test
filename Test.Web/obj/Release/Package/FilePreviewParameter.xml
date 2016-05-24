@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/TestApp" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Test\\Test\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Test\\Test\.Web\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Test-Web.config Connection String" description="" value="Data Source=SHIRMANOV\SQLEXPRESS;Initial Catalog=TestDatabase;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Test\\Test\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Test']/@connectionString" />
+  </parameter>
+</parameters>

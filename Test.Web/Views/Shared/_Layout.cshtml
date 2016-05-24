@@ -1,0 +1,74 @@
+﻿@using Test.Resources
+@using Test.Web.Controllers
+<!DOCTYPE html>
+<html class="sb-init">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/slidebars.css" rel="stylesheet" type="text/css" />
+    @RenderSection("Style", false)
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top sb-slide">
+        <div class="sb-toggle-left navbar-left">
+            <div class="navicon-line"></div>
+            <div class="navicon-line"></div>
+            <div class="navicon-line"></div>
+        </div>
+        @Html.ActionLink("Test", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        
+        @if (User.Identity.IsAuthenticated)
+        {
+            <p class="navbar-text">Hello, @User.Identity.Name!</p>
+        }
+    </div>
+    <div id="sb-site">
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+    </div>
+    
+    <div class="sb-slidebar sb-left">
+        <nav>
+            <ul class="sb-menu">
+                <li class="sb-close">@Html.ActionLink("Home", "Index", "Home")</li>
+                <li class="sb-close">@Html.ActionLink("Register", "Registration", "Account")</li>
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <li class="sb-close">@Html.ActionLink("Log In", "LogIn", "Account")</li>
+                }
+                else
+                {
+                    <li class="sb-close">@Html.ActionLink(AccountResources.Manage, "ManageAccount", "Account", new { login = User.Identity.Name }, null)</li>
+                    <li class="sb-close">@Html.ActionLink("Log off", "LogOff", "Account")</li>
+                }
+                
+                @if (User.IsInRole("Administrator"))
+                {
+                    <li class="sb-close">@Html.ActionLink("Manage App", "Index", "Admin")</li>
+                }
+            </ul>
+        </nav>
+    </div>
+    
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/slidebars.js"></script>
+    <script>
+        (function($) {
+            $(document).ready(function() {
+                $.slidebars();
+            });
+        })(jQuery);
+    </script>
+    @RenderSection("Script", false);
+</body>
+</html>

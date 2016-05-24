@@ -1,0 +1,66 @@
+﻿@using PagedList.Mvc
+@using Test.Resources
+@model PagedList.IPagedList<Test.Core.Domain.Exercise>
+
+    @{
+        ViewBag.Title = "Index";
+    }
+
+    <h2>@HomeResources.HomePage</h2>
+
+    <table class="table">
+        <tr>
+            <th>
+                @HomeResources.Name
+            </th>
+            <th>
+                @HomeResources.Description
+            </th>
+            <th>
+                @HomeResources.CreatorLogin
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            if (item.Questions.Count != 0 || User.IsInRole("Tutor") || User.IsInRole("Advanced Tutor"))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Creator.Login)
+                    </td>
+                    <td>
+                        @Html.ActionLink(HomeResources.PassTest, "PassTest", new { id = item.Id })
+                        @if (User.IsInRole("Advanced Tutor") || item.Creator.Login == User.Identity.Name)
+                        {
+                            <span>|</span>
+                            @Html.ActionLink(HomeResources.Edit, "TestInfo", new { id = item.Id })
+                            <span>|</span>
+                            @Html.ActionLink(AccountResources.Print, "Print", new { id = item.Id })
+                            <span>|</span>
+                            @Html.ActionLink(AccountResources.Details, "TestDetails", new { id = item.Id })
+                            <span>|</span>
+                            @Html.ActionLink(AccountResources.Delete, "TestDelete", new { id = item.Id })
+                        }
+                    </td>
+                </tr>
+            }
+        }
+
+    </table>
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+
+    @if (User.IsInRole("Tutor") || User.IsInRole("Advanced Tutor"))
+    {
+        @Html.ActionLink(HomeResources.CreateTest, "CreateTest")
+        <span>|</span>
+        @Html.ActionLink("Offline", "OfflinePass")
+    }

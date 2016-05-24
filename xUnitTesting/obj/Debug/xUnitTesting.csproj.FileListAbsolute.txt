@@ -1,0 +1,50 @@
+D:\Test\xUnitTesting\bin\Debug\xunit.abstractions.dll
+D:\Test\xUnitTesting\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\Test\xUnitTesting\bin\Debug\xunit.runner.utility.desktop.dll
+D:\Test\xUnitTesting\bin\Debug\xunit.execution.desktop.dll
+D:\Test\xUnitTesting\bin\Debug\xUnitTesting.dll
+D:\Test\xUnitTesting\bin\Debug\xUnitTesting.pdb
+D:\Test\xUnitTesting\bin\Debug\Moq.dll
+D:\Test\xUnitTesting\bin\Debug\Test.BL.dll
+D:\Test\xUnitTesting\bin\Debug\Test.Core.dll
+D:\Test\xUnitTesting\bin\Debug\xunit.assert.dll
+D:\Test\xUnitTesting\bin\Debug\xunit.core.dll
+D:\Test\xUnitTesting\bin\Debug\EntityFramework.dll
+D:\Test\xUnitTesting\bin\Debug\Test.BL.pdb
+D:\Test\xUnitTesting\bin\Debug\Test.Core.pdb
+D:\Test\xUnitTesting\bin\Debug\Moq.xml
+D:\Test\xUnitTesting\bin\Debug\xunit.assert.pdb
+D:\Test\xUnitTesting\bin\Debug\xunit.assert.xml
+D:\Test\xUnitTesting\bin\Debug\xunit.core.pdb
+D:\Test\xUnitTesting\bin\Debug\xunit.core.xml
+D:\Test\xUnitTesting\bin\Debug\EntityFramework.xml
+D:\Test\xUnitTesting\obj\Debug\xUnitTesting.csprojResolveAssemblyReference.cache
+D:\Test\xUnitTesting\obj\Debug\xUnitTesting.dll
+D:\Test\xUnitTesting\obj\Debug\xUnitTesting.pdb
+D:\Test\xUnitTesting\bin\Debug\PagedList.dll
+D:\Test\xUnitTesting\bin\Debug\PagedList.xml
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.runner.utility.desktop.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.abstractions.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.execution.desktop.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xUnitTesting.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xUnitTesting.pdb
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\Moq.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\Test.BL.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\Test.Core.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.assert.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.core.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\PagedList.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\EntityFramework.dll
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\Test.BL.pdb
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\Test.Core.pdb
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\Moq.xml
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.assert.pdb
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.assert.xml
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.core.pdb
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\xunit.core.xml
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\PagedList.xml
+D:\.Net Projects\Test\xUnitTesting\bin\Debug\EntityFramework.xml
+D:\.Net Projects\Test\xUnitTesting\obj\Debug\xUnitTesting.csprojResolveAssemblyReference.cache
+D:\.Net Projects\Test\xUnitTesting\obj\Debug\xUnitTesting.dll
+D:\.Net Projects\Test\xUnitTesting\obj\Debug\xUnitTesting.pdb

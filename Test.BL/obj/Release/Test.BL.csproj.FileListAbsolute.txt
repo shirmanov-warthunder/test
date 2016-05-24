@@ -1,0 +1,13 @@
+D:\Test\Test.BL\bin\Release\Test.BL.dll
+D:\Test\Test.BL\bin\Release\Test.BL.pdb
+D:\Test\Test.BL\bin\Release\Test.Core.dll
+D:\Test\Test.BL\bin\Release\Test.Data.dll
+D:\Test\Test.BL\bin\Release\EntityFramework.dll
+D:\Test\Test.BL\bin\Release\Test.Core.pdb
+D:\Test\Test.BL\bin\Release\Test.Data.pdb
+D:\Test\Test.BL\bin\Release\EntityFramework.xml
+D:\Test\Test.BL\obj\Release\Test.BL.csprojResolveAssemblyReference.cache
+D:\Test\Test.BL\obj\Release\Test.BL.dll
+D:\Test\Test.BL\obj\Release\Test.BL.pdb
+D:\Test\Test.Web\temp\Test.BL.dll
+D:\Test\Test.Web\temp\Test.BL.pdb

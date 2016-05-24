@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Ban";
+}
+
+<h2>Ban</h2>
+
+<form method="POST" class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-md-2">Users</label>
+        <div class="col-md-10">
+            <select id="studentSelect" name="Login" class="form-control" ajax-action="@Url.Action("IsUserActive")" target="#add" ajax-select="true">
+                <option value="-1">Select</option>
+                @foreach (var u in Model.Users)
+                {
+                    <option value="@u.Login">@u.Login</option>
+                }
+            </select>
+        </div>
+    </div><!--end form group-->
+
+    <input type="hidden" name="Role" />
+
+    <span data-bind="foreach: collection">
+        <span id="role" data-bind="text: State"></span>
+    </span>
+    <a class="btn btn-default" id="switch">Switch</a>
+
+    <button class="btn btn-default" type="submit" id="add">Save</button>
+</form>
+
+@section Script
+{
+    <script src="~/Scripts/knockout-3.3.0.js"></script>
+    <script src="~/Scripts/ajaxDropDown.js"></script>
+    <script>
+        $(function () {
+            $("#add").click(function() {
+                $("input[type='hidden']").val($("#role").text());
+            });
+
+            $("#switch").click(function() {
+                if ($("#role").text() == "Active") {
+                    $("#role").text("Disabled");
+                } else {
+                    $("#role").text("Active");
+                }
+            });
+        });
+    </script>
+}

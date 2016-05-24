@@ -1,0 +1,1 @@
+2015-08-21 14:36:14.4373|INFO|AuthLogger|User bot log in the application

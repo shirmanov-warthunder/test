@@ -1,0 +1,17 @@
+﻿.panel {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.panel-heading {
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+ol {
+    list-style-type: lower-latin;
+}

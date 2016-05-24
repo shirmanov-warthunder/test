@@ -1,0 +1,10 @@
+D:\Test\Test.Resources\bin\Release\Test.Resources.dll
+D:\Test\Test.Resources\bin\Release\Test.Resources.pdb
+D:\Test\Test.Resources\obj\Release\Test.Resources.csprojResolveAssemblyReference.cache
+D:\Test\Test.Resources\obj\Release\Test.Resources.AccountResources.resources
+D:\Test\Test.Resources\obj\Release\Test.Resources.HomeResources.resources
+D:\Test\Test.Resources\obj\Release\Test.Resources.csproj.GenerateResource.Cache
+D:\Test\Test.Resources\obj\Release\Test.Resources.dll
+D:\Test\Test.Resources\obj\Release\Test.Resources.pdb
+D:\Test\Test.Web\temp\Test.Resources.dll
+D:\Test\Test.Web\temp\Test.Resources.pdb

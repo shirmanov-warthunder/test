@@ -1,0 +1,1 @@
+2015-08-21 11:36:54.8816|INFO|PassTestLogger|User shirmanov pass test bot test

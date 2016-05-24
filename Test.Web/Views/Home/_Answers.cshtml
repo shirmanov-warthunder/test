@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Test.Core.Domain.Answer>
+
+<div id="answers">
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@item.Text</li>
+        }
+    </ul>
+</div>

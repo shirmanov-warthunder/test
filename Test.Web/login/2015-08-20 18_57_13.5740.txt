@@ -1,0 +1,1 @@
+2015-08-20 18:57:13.5740|INFO|AuthLogger|User admin log in the application

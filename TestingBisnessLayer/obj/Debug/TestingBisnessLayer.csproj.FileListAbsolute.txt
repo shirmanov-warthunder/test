@@ -1,0 +1,30 @@
+D:\Test\TestingBisnessLayer\obj\Debug\TestingBisnessLayer.csprojResolveAssemblyReference.cache
+D:\Test\TestingBisnessLayer\bin\Debug\TestingBisnessLayer.dll
+D:\Test\TestingBisnessLayer\bin\Debug\TestingBisnessLayer.pdb
+D:\Test\TestingBisnessLayer\bin\Debug\Moq.dll
+D:\Test\TestingBisnessLayer\bin\Debug\Test.BL.dll
+D:\Test\TestingBisnessLayer\bin\Debug\Test.Core.dll
+D:\Test\TestingBisnessLayer\bin\Debug\EntityFramework.dll
+D:\Test\TestingBisnessLayer\bin\Debug\Test.BL.pdb
+D:\Test\TestingBisnessLayer\bin\Debug\Test.Core.pdb
+D:\Test\TestingBisnessLayer\bin\Debug\Moq.xml
+D:\Test\TestingBisnessLayer\bin\Debug\EntityFramework.xml
+D:\Test\TestingBisnessLayer\obj\Debug\TestingBisnessLayer.dll
+D:\Test\TestingBisnessLayer\obj\Debug\TestingBisnessLayer.pdb
+D:\Test\TestingBisnessLayer\bin\Debug\PagedList.dll
+D:\Test\TestingBisnessLayer\bin\Debug\PagedList.xml
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\TestingBisnessLayer.dll
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\TestingBisnessLayer.pdb
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\Moq.dll
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\Test.BL.dll
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\Test.Core.dll
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\PagedList.dll
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\EntityFramework.dll
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\Test.BL.pdb
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\Test.Core.pdb
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\Moq.xml
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\PagedList.xml
+D:\.Net Projects\Test\TestingBisnessLayer\bin\Debug\EntityFramework.xml
+D:\.Net Projects\Test\TestingBisnessLayer\obj\Debug\TestingBisnessLayer.csprojResolveAssemblyReference.cache
+D:\.Net Projects\Test\TestingBisnessLayer\obj\Debug\TestingBisnessLayer.dll
+D:\.Net Projects\Test\TestingBisnessLayer\obj\Debug\TestingBisnessLayer.pdb

@@ -1,0 +1,90 @@
+﻿@using Test.Core.Domain
+@using Test.Resources
+@model Test.Core.Domain.Question
+@{
+    ViewBag.Title = "TestInfo";
+}
+
+<h2>Test Info</h2>
+
+<div class="container">
+    @if (!ViewBag.HasRightAnswer)
+    {
+        <div class="text-danger">You don't enter the right answer for this question.
+             You must have one right answer, please enter it, or delete whole question</div>
+    }
+    
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.Id)
+        <div class="form-horizontal">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Text, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Text, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="@HomeResources.Edit" class="btn btn-default" />
+                </div>
+            </div><!--end button submit-->
+        </div>
+    }
+    <hr />
+
+    <div class="row">
+        @Html.Partial("_Answers", Model.Answers)
+        <button class="btn btn-default" id="addQuestion">@HomeResources.AddAnswer</button>
+    </div>
+    <br />
+    <div class="row">
+        <form ajax-form="true" ajax-method="POST" ajax-action="@Url.Action("CreateAnswer")" ajax-target="#answers" class="hiddenForm">
+            <div class="well">
+                <input type="hidden" name="QuestionId" value="@Model.Id" />
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">@HomeResources.Answer</label>
+                        <div class="col-md-10">
+                            <textarea name="Text" class="form-control"></textarea>
+                        </div>
+                    </div><!--end form group-->
+
+                    @if (!ViewBag.HasRightAnswer)
+                    {
+                        <div class="form-group" id="hidden-field">
+                            <label class="control-label col-md-2">@HomeResources.IsRight</label>
+                            <input type="checkbox" name="IsRight" class="form-control" />
+                        </div>
+                    }
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <button type="submit" class="btn btn-default" id="addAnswer">@HomeResources.Add</button>
+                        </div>
+                    </div><!--end form group-->
+                </div><!--end horizontal form-->
+            </div><!--end well-->
+        </form>
+    </div>
+</div>
+
+@section Script
+{
+    <script src="~/Scripts/ajaxHelper.js"></script>
+    <script src="~/Scripts/ajax.js"></script>
+    <script>
+        $("#addAnswer").click(function() {
+            var result = $("input[type='checkbox']:checked").val();
+            if ($("#hidden-field").hasClass("hidden")) {
+                $("input[type='checkbox']:checked").val("off");
+            }
+            if (result == "on") {
+                $("#hidden-field").addClass("hidden");
+                $('.text-danger').addClass("hidden");
+            }
+        });
+    </script>
+}

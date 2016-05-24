@@ -1,0 +1,35 @@
+﻿@model Test.Web.Models.Home.TestDetailsModel
+@{
+    ViewBag.Title = "TestDetails";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Name</h3>
+        </div><!--end col-md-3-->
+        
+        <div class="col-md-9">@Model.Name</div>
+    </div><!--end row with name-->
+    
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Description</h3>
+        </div><!--end col-md-3 -->
+        
+        <div class="col-md-9">@Model.Description</div>
+    </div><!--end row with description -->
+    
+    <hr />
+    
+    @foreach (var res in Model.Results)
+    {
+        <div class="row">
+            <div class="col-md-2">User Name</div>
+            <div class="col-md-4">@res.User.Login</div>
+            <div class="col-md-2">Mark</div>
+            <div class="col-md-2">@res.Grade</div>
+            <div class="col-md-2">@res.TestDate</div>
+        </div>
+    }
+</div>

@@ -1,0 +1,5 @@
+D:\Test\NUbitProxy\bin\Debug\NUbitProxy.dll
+D:\Test\NUbitProxy\bin\Debug\NUbitProxy.pdb
+D:\Test\NUbitProxy\obj\Debug\NUbitProxy.dll
+D:\Test\NUbitProxy\obj\Debug\NUbitProxy.pdb
+D:\Test\NUbitProxy\obj\Debug\NUbitProxy.csprojResolveAssemblyReference.cache

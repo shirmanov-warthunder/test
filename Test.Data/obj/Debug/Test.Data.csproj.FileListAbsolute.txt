@@ -1,0 +1,24 @@
+D:\Test\Test.Data\bin\Debug\Test.Data.dll
+D:\Test\Test.Data\bin\Debug\Test.Data.pdb
+D:\Test\Test.Data\bin\Debug\EntityFramework.dll
+D:\Test\Test.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Test\Test.Data\bin\Debug\Test.Core.dll
+D:\Test\Test.Data\bin\Debug\Test.Core.pdb
+D:\Test\Test.Data\bin\Debug\EntityFramework.xml
+D:\Test\Test.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Test\Test.Data\obj\Debug\Test.Data.csprojResolveAssemblyReference.cache
+D:\Test\Test.Data\obj\Debug\Test.Data.dll
+D:\Test\Test.Data\obj\Debug\Test.Data.pdb
+D:\Test\Test.Data\bin\Debug\Test.Data.dll.config
+D:\.Net Projects\Test\Test.Data\bin\Debug\Test.Data.dll.config
+D:\.Net Projects\Test\Test.Data\bin\Debug\Test.Data.dll
+D:\.Net Projects\Test\Test.Data\bin\Debug\Test.Data.pdb
+D:\.Net Projects\Test\Test.Data\bin\Debug\EntityFramework.dll
+D:\.Net Projects\Test\Test.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\.Net Projects\Test\Test.Data\bin\Debug\Test.Core.dll
+D:\.Net Projects\Test\Test.Data\bin\Debug\Test.Core.pdb
+D:\.Net Projects\Test\Test.Data\bin\Debug\EntityFramework.xml
+D:\.Net Projects\Test\Test.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\.Net Projects\Test\Test.Data\obj\Debug\Test.Data.csprojResolveAssemblyReference.cache
+D:\.Net Projects\Test\Test.Data\obj\Debug\Test.Data.dll
+D:\.Net Projects\Test\Test.Data\obj\Debug\Test.Data.pdb

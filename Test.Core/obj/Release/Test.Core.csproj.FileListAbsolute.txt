@@ -1,0 +1,13 @@
+D:\Test\Test.Core\bin\Release\Test.Core.dll.config
+D:\Test\Test.Core\bin\Release\Test.Core.dll
+D:\Test\Test.Core\bin\Release\Test.Core.pdb
+D:\Test\Test.Core\bin\Release\EntityFramework.dll
+D:\Test\Test.Core\bin\Release\EntityFramework.SqlServer.dll
+D:\Test\Test.Core\bin\Release\EntityFramework.xml
+D:\Test\Test.Core\bin\Release\EntityFramework.SqlServer.xml
+D:\Test\Test.Core\obj\Release\Test.Core.csprojResolveAssemblyReference.cache
+D:\Test\Test.Core\obj\Release\Test.Core.dll
+D:\Test\Test.Core\obj\Release\Test.Core.pdb
+D:\Test\Test.Web\temp\Test.Core.dll.config
+D:\Test\Test.Web\temp\Test.Core.dll
+D:\Test\Test.Web\temp\Test.Core.pdb

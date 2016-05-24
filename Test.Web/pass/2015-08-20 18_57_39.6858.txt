@@ -1,0 +1,1 @@
+2015-08-20 18:57:39.6858|INFO|PassTestLogger|User admin pass test bot test

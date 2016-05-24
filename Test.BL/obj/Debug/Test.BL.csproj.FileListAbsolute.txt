@@ -1,0 +1,26 @@
+D:\Test\Test.BL\bin\Debug\Test.BL.dll
+D:\Test\Test.BL\bin\Debug\Test.BL.pdb
+D:\Test\Test.BL\bin\Debug\Test.Core.dll
+D:\Test\Test.BL\bin\Debug\Test.Data.dll
+D:\Test\Test.BL\bin\Debug\EntityFramework.dll
+D:\Test\Test.BL\bin\Debug\Test.Core.pdb
+D:\Test\Test.BL\bin\Debug\Test.Data.pdb
+D:\Test\Test.BL\bin\Debug\EntityFramework.xml
+D:\Test\Test.BL\obj\Debug\Test.BL.csprojResolveAssemblyReference.cache
+D:\Test\Test.BL\obj\Debug\Test.BL.dll
+D:\Test\Test.BL\obj\Debug\Test.BL.pdb
+D:\Test\Test.BL\bin\Debug\PagedList.dll
+D:\Test\Test.BL\bin\Debug\PagedList.xml
+D:\.Net Projects\Test\Test.BL\bin\Debug\Test.BL.dll
+D:\.Net Projects\Test\Test.BL\bin\Debug\Test.BL.pdb
+D:\.Net Projects\Test\Test.BL\bin\Debug\PagedList.dll
+D:\.Net Projects\Test\Test.BL\bin\Debug\Test.Core.dll
+D:\.Net Projects\Test\Test.BL\bin\Debug\Test.Data.dll
+D:\.Net Projects\Test\Test.BL\bin\Debug\EntityFramework.dll
+D:\.Net Projects\Test\Test.BL\bin\Debug\Test.Core.pdb
+D:\.Net Projects\Test\Test.BL\bin\Debug\Test.Data.pdb
+D:\.Net Projects\Test\Test.BL\bin\Debug\PagedList.xml
+D:\.Net Projects\Test\Test.BL\bin\Debug\EntityFramework.xml
+D:\.Net Projects\Test\Test.BL\obj\Debug\Test.BL.csprojResolveAssemblyReference.cache
+D:\.Net Projects\Test\Test.BL\obj\Debug\Test.BL.dll
+D:\.Net Projects\Test\Test.BL\obj\Debug\Test.BL.pdb

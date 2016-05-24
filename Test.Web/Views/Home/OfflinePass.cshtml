@@ -1,0 +1,66 @@
+﻿@model Test.Web.Models.Home.OfflineModel
+
+@{
+    ViewBag.Title = "Offline";
+}
+
+<h2>Offline</h2>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Enter results
+    </div>
+    <div class="panel-body">
+        <form ajax-form="true" ajax-method="GET" ajax-action="@Url.Action("OfflineResults")">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-md-2">Student</label>
+                    <div class="col-md-10">
+                        <select class="form-control" id="studentSelect" target="#test" name="studentId">
+                            <option value="-1">Select</option>
+                            @foreach (var o in Model.Students)
+                            {
+                                <option value="@o.Id">@o.Login</option>
+                            }
+                        </select>
+                    </div>
+                </div><!--end form group-->
+            
+                <div class="form-group">
+                    <label class="control-label col-md-2">Tests</label>
+                    <div class="col-md-10">
+                        <select id="test" ajax-action="@Url.Action("GetQuestions")" target="#add" ajax-select="true" class="form-control" name="testId">
+                            <option value="-1">Select</option>
+                            @foreach (var o in Model.Tests)
+                            {
+                                <option value="@o.Id">@o.Name</option>
+                            }
+                        </select>
+                    </div>
+                </div><!--end form group-->
+            
+                <div class="form-group" data-bind="foreach: collection">
+                    <label class="control-label col-md-2" data-bind="text: Text"></label>
+                    <div class="col-md-10">
+                        <select id="answer" class="form-control" target="#add" data-bind="foreach: Answers">
+                            <option data-bind="value: Id, text: Text" />
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <button type="submit" class="btn btn-default" id="add">Add</button>
+                    </div>
+                </div><!--end form group-->
+            </div><!--end horizontal form-->
+        </form>
+    </div>
+</div>
+
+
+@section Script
+{
+    <script src="~/Scripts/knockout-3.3.0.js"></script>
+    <script src="~/Scripts/ajaxDropDown.js"></script>
+}

@@ -1,0 +1,1 @@
+2015-08-25 16:52:30.1639|INFO|AuthLogger|User andrey log in the application
